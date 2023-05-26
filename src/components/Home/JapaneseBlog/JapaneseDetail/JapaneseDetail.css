@@ -1,0 +1,11 @@
+.commentContainer{
+    padding: 10px;
+    background-color: rgb(230, 225, 225);
+}
+
+.commentStyle{
+    padding: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

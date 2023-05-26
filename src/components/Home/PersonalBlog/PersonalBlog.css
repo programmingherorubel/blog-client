@@ -1,0 +1,29 @@
+
+.PersonalBlog{
+    background-color: rgb(235, 235, 235);
+}
+.personalBlogContainer{
+    position: relative;
+    z-index: 0;
+}
+.personalBlogContent{
+    padding: 20px 0px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.personalBlogContent >*{
+    transform: translateY(25px);
+    transition: transform 0.25s;
+}
+.personalBlogContent:hover{
+    opacity: 1;
+}
+.personalBlogContent:hover >*{
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}

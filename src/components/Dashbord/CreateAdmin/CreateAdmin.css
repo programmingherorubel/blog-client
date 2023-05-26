@@ -1,0 +1,8 @@
+.admin{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.842),rgba(0, 0, 0, 0.826)),url(../../Home/img/pexels-arturo-añez-9180717.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}

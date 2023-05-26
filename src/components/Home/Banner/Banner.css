@@ -1,0 +1,28 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.819),rgba(0, 0, 0, 0.819)),url(../img/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+    z-index: 997;
+}
+.aysha{
+    margin: 20px 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.aysha:hover{
+    transform: scale(1.1);
+}
+.bio{
+    color: white;
+    /* font-family: 26px; */
+}

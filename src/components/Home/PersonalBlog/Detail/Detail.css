@@ -1,0 +1,7 @@
+.singleDateTime{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    background-color: tomato;
+    color: white;
+}
